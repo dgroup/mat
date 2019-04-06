@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# @todo #/DEV Add rultor integration with trigger build on hub.docker.com
 set -e
 MAT_DIST=MemoryAnalyzer-1.8.1.20180910-linux.gtk.x86_64.zip
 TARGET_FOLDER=mat

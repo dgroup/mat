@@ -1,0 +1,19 @@
+architect:
+  - dgroup
+
+readers:
+  - "urn:github:1651114"
+
+# @todo #/DEV Make integration between rultor phases and hub.docker.com builds
+#  as rultor doesn't supports `dind` images.
+
+merge:
+  script:
+    - echo "Not implemented yet"
+
+release:
+  script: |
+    BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+    VCS_REF=`git rev-parse --short HEAD`
+    VERSION=$tag
+    echo "Build triggered for ${VCS_REF} on ${BUILD_DATE} for ${VERSION}"
