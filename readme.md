@@ -1,7 +1,9 @@
 **Description** 
 
-[![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](./license.txt)
+[![](https://images.microbadger.com/badges/image/dgroup/mat.svg)](https://microbadger.com/images/dgroup/mat "Image layers")
+[![](https://images.microbadger.com/badges/version/dgroup/mat.svg)](https://microbadger.com/images/dgroup/mat "Image version")
 [![Commit activity](https://img.shields.io/github/commit-activity/y/dgroup/mat.svg?style=flat-square)](https://github.com/dgroup/mat/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](./license.txt)
 [![0pdd](http://www.0pdd.com/svg?name=dgroup/mat)](http://www.0pdd.com/p?name=dgroup/mat)
 
 Base docker image with OpenJDK 8 and MAT: `dgroup/mat`
