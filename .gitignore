@@ -1,0 +1,6 @@
+/workspace
+*.log
+*.index
+*.zip
+*.threads
+/mat

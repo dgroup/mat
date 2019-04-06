@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  openjdk8-with-mat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dgroup/mat:0.1.0
+    container_name: dgroup-mat
