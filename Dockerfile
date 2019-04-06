@@ -1,7 +1,19 @@
 FROM openjdk:8-jdk
 
-LABEL contact="yurii.dubinka@gmail.com" \
-  sources="https://github.com/dgroup/mat" \
+# Build-time metadata in accordance with http://label-schema.org
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VERSION
+
+LABEL org.label-schema.build-date=$BUILD_DATE \
+  org.label-schema.name="mat" \
+  org.label-schema.description="Eclipse Memory Analyzer for the JVM heap dump analysis" \
+  org.label-schema.url="https://github.com/dgroup/mat" \
+  org.label-schema.vcs-ref=$VCS_REF \
+  org.label-schema.vcs-url="https://github.com/dgroup/mat" \
+  org.label-schema.vendor="yurii.dubinka@gmail.com" \
+  org.label-schema.version=$VERSION \
+  org.label-schema.schema-version="1.0" \
   dockerfile="https://github.com/dgroup/mat/blob/master/Dockerfile"
 
 ENV MAT_HOME=/mat \
