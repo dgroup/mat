@@ -1,6 +1,7 @@
 **Description** 
 
 [![](https://images.microbadger.com/badges/image/dgroup/mat.svg)](https://microbadger.com/images/dgroup/mat "Image layers")
+[![](https://img.shields.io/docker/pulls/dgroup/mat.svg)](https://hub.docker.com/r/dgroup/mat "Image pulls")
 [![](https://images.microbadger.com/badges/version/dgroup/mat.svg)](https://microbadger.com/images/dgroup/mat "Image version")
 [![Commit activity](https://img.shields.io/github/commit-activity/y/dgroup/mat.svg?style=flat-square)](https://github.com/dgroup/mat/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](./license.txt)
